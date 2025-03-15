@@ -34,7 +34,7 @@ def vigenere_encrypt():
     data = request.json
     plain_text = data['plain_text']
     key = data['key']
-    encrypted_text = vigenere_cipher.vigenere_encrypt(plain_text, key)
+    encrypted_text = vigenere_cipher.vigenere_encrypted(plain_text, key)
     return jsonify({'encrypted_text': encrypted_text})
 
 @app.route('/api/vigenere/decrypt', methods=['POST'])
