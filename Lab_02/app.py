@@ -3,7 +3,7 @@ from cipher.caesar import CaesarCipher
 from cipher.playfair import PlayFairCipher
 from cipher.railfence import RailFenceCipher
 from cipher.transposition import TranspositionCipher
-from cipher.vigenere import VigenereCipher
+from cipher.Vigenere import VigenereCipher
 import re 
 
 app = Flask(__name__)
