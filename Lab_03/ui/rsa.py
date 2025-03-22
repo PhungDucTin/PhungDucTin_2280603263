@@ -10,7 +10,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import os 
-os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "D:/WpSystem/S-1-5-21-2370144463-2257368207-3770666753-1001/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/PyQt5/Qt5/plugins/platforms"
+os.environ['QT_QPA_PLATFORM_PLUGIN_PATH'] = "C:/Users/Administrator/AppData/Local/Programs/Python/Python312/Lib/site-packages/PyQt5/Qt5/plugins/platforms"
 
 class Ui_RSACipher(object):
     def setupUi(self, RSACipher):
