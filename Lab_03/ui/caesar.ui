@@ -17,7 +17,7 @@
    <widget class="QLabel" name="lbl_Caesar">
     <property name="geometry">
      <rect>
-      <x>250</x>
+      <x>240</x>
       <y>10</y>
       <width>321</width>
       <height>71</height>
